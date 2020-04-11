@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WGObjecTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WGObjecTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WGObjecTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WGObjecTool: d9c0abb53d63ba78f182777114f47217b2a2a5e0
+
+PODFILE CHECKSUM: 3d9e1b2aa62e95f9bff6e014c4d41e852bac6a01
+
+COCOAPODS: 1.9.1
